@@ -1,0 +1,175 @@
+@charset "UTF-8";
+.btn, .a {
+  width: auto;
+  height: auto;
+  background-color: #999b85;
+  color: black;
+  animation-name: mianimacion;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  position: relative; }
+
+.a {
+  text-decoration: none;
+  animation-name: letrasAnimacion; }
+
+@keyframes mianimacion {
+  0% {
+    background-color: #999b85; }
+  50% {
+    background-color: #ddb7ac;
+    color: black; }
+  100% {
+    background-color: #999b85; } }
+
+@keyframes letrasAnimacion {
+  0% {
+    color: white; }
+  50% {
+    color: black; }
+  100% {
+    color: white; } }
+
+.navbar {
+  background-color: white; }
+
+@media (max-width: 768px) {
+  #intro {
+    width: 90% !important; }
+  .servicio-fila {
+    width: 100% !important;
+    text-align: center; } }
+
+@media (max-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important; } }
+
+@media (min-width: 992px) {
+  .collapse {
+    display: flex;
+    justify-content: end !important; } }
+
+h1, h2 h3 h4 {
+  font-family: "Josefin Sans";
+  transform: rotateY(360deg);
+  transition: transform 5s;
+  animation-delay: 2s;
+  color: black;
+  animation: miTitulo; }
+
+@keyframes miTitulo {
+  0% {
+    color: black; }
+  50% {
+    color: #999b85; }
+  100% {
+    color: black; } }
+
+footer {
+  background-color: #f4efec;
+  min-height: 100px; }
+  footer p {
+    text-align: center; }
+    footer p a {
+      text-decoration: none;
+      color: #999b85; }
+      footer p a:hover {
+        color: black; }
+
+#iconos i {
+  font-size: 20px;
+  padding: 0 8px;
+  text-decoration: none;
+  color: #999b85; }
+  #iconos i:hover {
+    color: black; }
+
+.form-control, .form-select {
+  width: 500px; }
+
+.datos {
+  text-decoration: none;
+  color: #999b85; }
+  .datos:hover {
+    color: black; }
+
+.infoContacto {
+  background-color: #f0d9d1; }
+
+.infoContacto h4 {
+  font-size: large; }
+
+.infoContacto a {
+  font-size: xx-large; }
+
+@media (max-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important; }
+  .infoContacto {
+    width: auto;
+    height: auto; }
+  .infoContacto h4 {
+    font-size: small; }
+  .infoContacto a {
+    font-size: small; } }
+
+@media (max-width: 616px) {
+  .form-label {
+    display: flex;
+    justify-content: end; }
+  .form-control, .form-select {
+    display: flex;
+    justify-content: end !important; }
+  .infoContacto h4 {
+    font-size: medium; }
+  .infoContacto a {
+    font-size: medium; } }
+
+@media (max-width: 1320px) {
+  .form-label {
+    display: flex;
+    justify-content: end; }
+  .form-control, .form-select {
+    display: flex;
+    justify-content: end !important; }
+  .infoContacto h4 {
+    font-size: medium; }
+  .infoContacto a {
+    font-size: medium; } }
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  margin: 20px; }
+
+.card {
+  border-radius: 6px;
+  overflow: hidden;
+  /*Elemento fuera del contenedor se oculte*/
+  background-color: white;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  /*sombra entre gris claro a la tarjeta*/
+  cursor: pointer;
+  /*en el cursor aparece una mano indicadora*/
+  transition: all 400ms ease;
+  /*efecto suave dura 400ms, efecto ease para que no se vea tosco*/ }
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  /*sombra más oscura cuando pasemos el cursor*/
+  transform: translateY(-3%);
+  /*la tarjeta se traslada de manera vertical, es decir cuando pasemos el cursor va a tener ese efecto*/ }
+
+@media (max-width: 576px) {
+  .card {
+    padding: 20px; }
+  h1 h2 p button footer, h2 h3 h4 h2 p button footer {
+    font-size: small; } }
+
+@media (max-width: 768px) {
+  .card {
+    padding: 20px; }
+  h1 h2 p button footer, h2 h3 h4 h2 p button footer {
+    font-size: small; } }

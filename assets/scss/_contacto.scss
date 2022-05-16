@@ -1,0 +1,71 @@
+.form-control{
+    width: 500px;
+}    
+.form-select{
+    @extend .form-control;
+} 
+.datos{
+    text-decoration: map-get($pieDePagina,decoTexto);
+    color: $colorSecundario;
+    &:hover{
+            color: $colorNegro;
+           }
+}    
+.infoContacto{
+    background-color: $colorAlternativo;
+}    
+.infoContacto h4{
+    font-size:large;
+}
+.infoContacto a{
+    font-size: xx-large;
+}  
+@media (max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .infoContacto{
+        width: auto;
+        height: auto;  
+    }
+    .infoContacto h4{
+        font-size: small;
+    }
+    .infoContacto a{
+        font-size: small;
+    }
+}
+@media (max-width:616px){
+    .form-label{
+        display: flex;
+        justify-content: end; 
+    }
+    .form-control{
+        display: flex;
+        justify-content: end !important;
+    }
+    .infoContacto h4{
+        font-size:medium;
+    }
+    .infoContacto a{
+        font-size: medium;
+    }
+}
+@media (max-width:1320px){
+    .form-label{
+        display: flex;
+        justify-content: end; 
+    }
+    .form-control{
+        display: flex;
+        justify-content: end !important;
+    }
+    .infoContacto h4{
+        font-size:medium;
+    }
+    .infoContacto a{
+        font-size: medium;
+    }
+}
+
