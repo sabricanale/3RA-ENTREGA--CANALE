@@ -15,10 +15,10 @@
     background-color: $colorAlternativo;
 }    
 .infoContacto h4{
-    font-size:large;
+    font-size:medium;
 }
 .infoContacto a{
-    font-size: xx-large;
+    font-size: large;
 }  
 @media (max-width:576px){
     .icono-wrap{
@@ -45,9 +45,7 @@
         display: flex;
         justify-content: end !important;
     }
-    .infoContacto h4{
-        font-size:medium;
-    }
+ 
     .infoContacto a{
         font-size: medium;
     }
@@ -61,9 +59,7 @@
         display: flex;
         justify-content: end !important;
     }
-    .infoContacto h4{
-        font-size:medium;
-    }
+   
     .infoContacto a{
         font-size: medium;
     }

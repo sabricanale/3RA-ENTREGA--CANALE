@@ -98,10 +98,10 @@ footer {
   background-color: #f0d9d1; }
 
 .infoContacto h4 {
-  font-size: large; }
+  font-size: medium; }
 
 .infoContacto a {
-  font-size: xx-large; }
+  font-size: large; }
 
 @media (max-width: 576px) {
   .icono-wrap {
@@ -122,8 +122,6 @@ footer {
   .form-control, .form-select {
     display: flex;
     justify-content: end !important; }
-  .infoContacto h4 {
-    font-size: medium; }
   .infoContacto a {
     font-size: medium; } }
 
@@ -134,8 +132,6 @@ footer {
   .form-control, .form-select {
     display: flex;
     justify-content: end !important; }
-  .infoContacto h4 {
-    font-size: medium; }
   .infoContacto a {
     font-size: medium; } }
 
