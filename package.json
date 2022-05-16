@@ -297,5 +297,13 @@
     "yargs": "^17.5.0",
     "yargs-parser": "^20.2.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabricanale/3RA-ENTREGA--CANALE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sabricanale/3RA-ENTREGA--CANALE/issues"
+  },
+  "homepage": "https://github.com/sabricanale/3RA-ENTREGA--CANALE#readme",
   "description": ""
 }
