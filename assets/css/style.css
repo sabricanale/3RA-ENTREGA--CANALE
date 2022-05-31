@@ -94,7 +94,9 @@ footer {
     color: black; }
 
 .infoContacto {
-  background-color: #f0d9d1; }
+  background-color: #f0d9d1;
+  display: row;
+  justify-content: space-around; }
 
 .infoContacto h4 {
   font-size: medium; }
@@ -121,6 +123,8 @@ footer {
   .form-control, .form-select {
     display: flex;
     justify-content: end !important; }
+  .infoContacto {
+    display: inline-block; }
   .infoContacto a {
     font-size: medium; } }
 
@@ -171,41 +175,5 @@ footer {
   transform: translateY(-3%);
   /*la tarjeta se traslada de manera vertical, es decir cuando pasemos el cursor va a tener ese efecto*/ }
 
-@media (max-width: 576px) {
-  .textoCarousel {
-    left: 10%;
-    top: 18%;
-    width: 350px;
-    height: 225px; }
-  .textoCarousel h1, .textoCarousel h2 h3 h4, h2 h3 .textoCarousel h4 {
-    font-size: 10px; }
-  .textoCarousel p {
-    font-size: 10px; }
-  .btn, .a {
-    font-size: 10px; } }
-
-@media (max-width: 768px) {
-  .textoCarousel {
-    left: 15%;
-    top: 18%;
-    width: 350px;
-    height: 225px; }
-  .textoCarousel h1, .textoCarousel h2 h3 h4, h2 h3 .textoCarousel h4 {
-    font-size: 10px; }
-  .textoCarousel p {
-    font-size: 10px; }
-  .btn, .a {
-    font-size: 10px; } }
-
-@media (max-width: 1200px) {
-  .textoCarousel {
-    left: 40%;
-    top: 35%;
-    width: 420px;
-    height: 300px; }
-  .textoCarousel h1, .textoCarousel h2 h3 h4, h2 h3 .textoCarousel h4 {
-    font-size: 18px; }
-  .textoCarousel p {
-    font-size: 14px; }
-  .btn, .a {
-    font-size: 14px; } }
+#tarjeta {
+  margin-top: 20px; }

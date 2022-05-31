@@ -90,13 +90,11 @@
             <img src="./assets/img/Imagen principal.jpg" class="img-fluid d-block" alt="Abogada de familia" width="1300px">
         </figure>
   
-        <div class="textoCarousel carousel-caption">
-            <h1 class="animate__animated animate__fadeInDown  m-3">ABOGADA DE FAMILIA</h1>
-            <p class="text-dark p-2 animate__animated animate__backInDown">Te damos la bienvenida a nuestro estudio de primer nivel y gran experiencia profesional</p>
-            <p class="text-dark animate__animated animate__backInDown">Somos un equipo de profesionales que brinda asesoramiento jurídico y legal de manera personalizada, utilizando las mejores estrategias para resolver los conflictos de manera rápida y eficaz, obteniendo los
-            <span class="text-dark fw-bold">  mejores resultados.</span></p>
-            <div clas="mt-5">
-              <a href="./pages/contacto.html" class="animate__animated animate__swing btn btn-secondary btn-lg "> Contactanos</a>
+        <div class="textoCarousel carousel-caption d-none d-md-block">
+            <h1 class="animate__animated animate__fadeInDown p-3 m-3 fw-bold">ABOGADA DE FAMILIA</h1>
+            <p class="text-dark pb-2 animate__animated animate__backInDown">Te damos la bienvenida a nuestro estudio de primer nivel y gran experiencia profesional</p>            
+            <div clas="m-3">
+              <a href="./pages/contacto.html" class="animate__animated animate__swing btn btn-secondary btn-lg"> Contactanos</a>
             </div>
         </div>
       </div>
@@ -104,12 +102,23 @@
 </header>
 
 <main>
+  <!--Presentación-->
+  <section class="w-100 mx-auto text-center pt-3" id="intro">
+    <h2 class="animate__animated animate__swing fs-2">¿QUIÉNES SOMOS?</h2>
+    <p class="p-2 fs-4">Somos un equipo de profesionales que brinda asesoramiento jurídico y legal de manera personalizada, utilizando las mejores estrategias para resolver los conflictos de manera rápida y eficaz, obteniendo los
+    <span class="text-secondary fw-bold">  mejores resultados.</span></p>
+    <div clas="m-3">
+      <a href="./pages/nosotros.html" class="animate__animated animate__swing btn btn-secondary btn-lg"> Más info</a>
+    </div>
+
+    
+  </section>
 <!--Servicios-->
-  <div class="w-100 mx-auto text-center pt-5" id="intro">
-      <h3 class="animate__animated animate__swing w-20 p-2 fs-2 fw-bold">SERVICIOS</h3>
+  <div class="w-100 mx-auto text-center pt-3" id="intro">
+      <h3 class="animate__animated animate__swing w-20 fs-2 mt-3">SERVICIOS</h3>
   </div>
     <div class="row justify-content-around p-4">
-      <div class="col-sm-4">
+      <div class="col-sm-4" id="tarjeta">
         <div class="card h-100"> 
           <div class="contenedor">
             <figure>
@@ -125,7 +134,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4" id="tarjeta">
         <div class="card h-100"> 
           <div class="contenedor">
             <figure>
@@ -141,7 +150,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4" id="tarjeta">
         <div class="card h-100"> 
           <div class="contenedor">
             <figure>
@@ -158,8 +167,8 @@
         </div>
       </div>
 
-      <div class="row justify-content-center p-4">
-      <div class="col-sm-4">
+      
+      <div class="col-sm-4" id="tarjeta">
         <div class="card h-100"> 
           <div class="contenedor">
             <figure>
@@ -176,7 +185,7 @@
         </div>
       </div>
 
-      <div class="col-sm-4">
+      <div class="col-sm-4" id="tarjeta">
         <div class="card h-100"> 
           <div class="contenedor">
             <figure>
@@ -193,22 +202,22 @@
         </div>
       </div>
     </div>
-  </div>
+ 
     <!--Modalidad-->
 
         <section>
-            <h3 class="animate__animated animate__swing text-center p-3 fs-2 mt-5 fw-bold" id="titulo">MODALIDAD DE CONSULTA</h3>
-            <div class="row justify-content-around">
-                <div class="card col-xs-4" style="width: 28rem">
-                    <img class= "img-fluid" src="./assets/img/Modalidad1.jpg" class="card-img-top" alt="Modalidad virtual">
+            <h3 class="animate__animated animate__swing text-center fs-2 m-3 pb-4" id="titulo">MODALIDAD DE CONSULTA</h3>
+            <div class="row justify-content-around"  >
+                <div class="card col-xs-4" style="width: 28rem" >
+                    <img class= "img-fluid m-2" src="./assets/img/Modalidad1.jpg" class="card-img-top" alt="Modalidad virtual">
                     <div class="card-body text-center">
                         <h3 class="card-title fw-bold">Virtual</h3>
                         <p class="card-text">Realizá tu consulta desde donde estés</p>
                         <a href="https://walink.co/30d8fd" class="animate__animated animate__swing btn btn-secondary">Reservar turno</a>
                     </div>
                 </div>
-                <div class="card col-xs-4" style="width: 28rem">
-                    <img class= "img-fluid" src="./assets/img/Modalidad2.jpg" class="card-img-top" alt="Modalidad presencial">
+                <div class="card col-xs-4" style="width: 28rem" id="tarjeta">
+                    <img class= "img-fluid m-2" src="./assets/img/Modalidad2.jpg" class="card-img-top" alt="Modalidad presencial">
                     <div class="card-body text-center">
                         <h3 class="card-title fw-bold">Presencial</h3>
                         <p class="card-text">Acercate a nuestras oficinas</p>

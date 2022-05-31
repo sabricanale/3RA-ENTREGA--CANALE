@@ -14,6 +14,8 @@
 }    
 .infoContacto{
     background-color: $colorAlternativo;
+    display: row;
+    justify-content:space-around;
 }    
 .infoContacto h4{
     font-size:medium;
@@ -27,6 +29,7 @@
         justify-content: center !important;
     }
     .infoContacto{
+        
         width: auto;
         height: auto;  
     }
@@ -46,8 +49,12 @@
         display: flex;
         justify-content: end !important;
     }
- 
+
+    .infoContacto{
+        display: inline-block;
+    } 
     .infoContacto a{
+        
         font-size: medium;
     }
 }
@@ -60,7 +67,7 @@
         display: flex;
         justify-content: end !important;
     }
-   
+  
     .infoContacto a{
         font-size: medium;
     }
