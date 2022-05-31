@@ -32,7 +32,7 @@ box-shadow: 5px 5px 20px rgba(0,0,0, 0.4); /*sombra más oscura cuando pasemos e
 transform: translateY(-3%); /*la tarjeta se traslada de manera vertical, es decir cuando pasemos el cursor va a tener ese efecto*/
 }
 
-@media (min-width:0px) and (max-width:490px){
+@media (max-width:576px) {
     .textoCarousel{
         left:10%;
        top: 18%;
@@ -50,7 +50,7 @@ transform: translateY(-3%); /*la tarjeta se traslada de manera vertical, es deci
    }    
 }
 
-@media (min-width:490.02px) and (max-width:767.98px){
+@media (max-width:768px){
     .textoCarousel{
         left:15%;
        top: 18%;
@@ -69,7 +69,7 @@ transform: translateY(-3%); /*la tarjeta se traslada de manera vertical, es deci
 }
 
 
-@media (min-width:768px) and (max-width:1200px) {
+@media (max-width:1200px) {
     .textoCarousel{
          left:40%;
         top: 35%;
