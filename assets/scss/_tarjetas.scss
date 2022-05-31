@@ -36,17 +36,58 @@ transform: translateY(-3%); /*la tarjeta se traslada de manera vertical, es deci
     margin-top: 20px;
 }
 
-@media (max-width:768px) {
+@media (max-width:991px) {
 
     .textoCarousel{
         background-color:$colorAlternativoTransparente;
-        left:10%;
-        top: 25%;
-        width: 350px;
-        height: 200px;
+        left:35%;
+        top: 35%;
+        width: 400px;
+        height: 250px;
     }
     .textoCarousel h1{
-        font-size:10px;
+        font-size:15px;
+    }
+    .textoCarousel p{
+        font-size: 13px;
+    }
+    .btn{
+        font-size: 13px;
+    }
+} 
+
+    @media (max-width:768px) {
+
+        .textoCarousel{
+            background-color:$colorAlternativoTransparente;
+            left:35%;
+            top: 35%;
+            width: 400px;
+            height: 250px;
+        }
+        .textoCarousel h1{
+            font-size:15px;
+        }
+        .textoCarousel p{
+            font-size: 13px;
+        }
+        .btn{
+            font-size: 13px;
+        }
+    
+}
+
+@media (min-width: 0px) and (max-width:668px) {
+
+    .textoCarousel{
+        background-color:$colorAlternativoTransparente;
+        left:25%;
+        top: 28%;
+        width: 300px;
+        height: 190px;
+    }
+    .textoCarousel h1{
+        font-size:12px;
     }
     .textoCarousel p{
         font-size: 10px;
@@ -54,5 +95,5 @@ transform: translateY(-3%); /*la tarjeta se traslada de manera vertical, es deci
     .btn{
         font-size: 10px;
     }
-    
+
 }
