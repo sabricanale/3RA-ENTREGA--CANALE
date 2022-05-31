@@ -178,7 +178,7 @@ footer {
 #tarjeta {
   margin-top: 20px; }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .textoCarousel {
     background-color: #f0d9d16e;
     left: 10%;
