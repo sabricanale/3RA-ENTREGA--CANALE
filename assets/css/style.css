@@ -177,3 +177,17 @@ footer {
 
 #tarjeta {
   margin-top: 20px; }
+
+@media (max-width: 576px) {
+  .textoCarousel {
+    background-color: #f0d9d16e;
+    left: 10%;
+    top: 25%;
+    width: 350px;
+    height: 200px; }
+  .textoCarousel h1, .textoCarousel h2 h3 h4, h2 h3 .textoCarousel h4 {
+    font-size: 10px; }
+  .textoCarousel p {
+    font-size: 10px; }
+  .btn, .a {
+    font-size: 10px; } }
