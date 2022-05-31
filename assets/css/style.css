@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(animate.css);
 .btn, .a {
   width: auto;
   height: auto;
@@ -52,8 +53,6 @@
 
 h1, h2 h3 h4 {
   font-family: "Josefin Sans";
-  transform: rotateY(360deg);
-  transition: transform 5s;
   animation-delay: 2s;
   color: black;
   animation: miTitulo; }
@@ -135,12 +134,26 @@ footer {
   .infoContacto a {
     font-size: medium; } }
 
+.textoCarousel {
+  background-color: #f0d9d16e;
+  left: 45%;
+  top: 35%;
+  width: 650px;
+  height: 350px; }
+
+.textoCarousel h1, .textoCarousel h2 h3 h4, h2 h3 .textoCarousel h4 {
+  font-size: 30px; }
+
+.textoCarousel p {
+  font-size: 18px; }
+
 .contenedor {
   display: flex;
   justify-content: center;
   margin: 20px; }
 
 .card {
+  margin: auto;
   border-radius: 6px;
   overflow: hidden;
   /*Elemento fuera del contenedor se oculte*/
@@ -158,14 +171,41 @@ footer {
   transform: translateY(-3%);
   /*la tarjeta se traslada de manera vertical, es decir cuando pasemos el cursor va a tener ese efecto*/ }
 
-@media (max-width: 576px) {
-  .card {
-    padding: 20px; }
-  h1 h2 p button footer, h2 h3 h4 h2 p button footer {
-    font-size: small; } }
+@media (min-width: 0px) and (max-width: 490px) {
+  .textoCarousel {
+    left: 10%;
+    top: 18%;
+    width: 350px;
+    height: 225px; }
+  .textoCarousel h1, .textoCarousel h2 h3 h4, h2 h3 .textoCarousel h4 {
+    font-size: 10px; }
+  .textoCarousel p {
+    font-size: 10px; }
+  .btn, .a {
+    font-size: 10px; } }
 
-@media (max-width: 768px) {
-  .card {
-    padding: 20px; }
-  h1 h2 p button footer, h2 h3 h4 h2 p button footer {
-    font-size: small; } }
+@media (min-width: 490.02px) and (max-width: 767.98px) {
+  .textoCarousel {
+    left: 15%;
+    top: 18%;
+    width: 350px;
+    height: 225px; }
+  .textoCarousel h1, .textoCarousel h2 h3 h4, h2 h3 .textoCarousel h4 {
+    font-size: 10px; }
+  .textoCarousel p {
+    font-size: 10px; }
+  .btn, .a {
+    font-size: 10px; } }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .textoCarousel {
+    left: 40%;
+    top: 35%;
+    width: 420px;
+    height: 300px; }
+  .textoCarousel h1, .textoCarousel h2 h3 h4, h2 h3 .textoCarousel h4 {
+    font-size: 18px; }
+  .textoCarousel p {
+    font-size: 14px; }
+  .btn, .a {
+    font-size: 14px; } }

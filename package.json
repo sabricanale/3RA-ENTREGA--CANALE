@@ -15,11 +15,13 @@
     "nodemon": "^2.0.16"
   },
   "dependencies": {
+    "-": "^0.0.1",
     "abbrev": "^1.1.1",
     "agent-base": "^6.0.2",
     "agentkeepalive": "^4.2.1",
     "aggregate-error": "^3.1.0",
     "ajv": "^6.12.6",
+    "animate.css": "^4.1.1",
     "ansi-align": "^3.0.1",
     "ansi-regex": "^5.0.1",
     "ansi-styles": "^4.3.0",
@@ -62,6 +64,7 @@
     "core-util-is": "^1.0.2",
     "cross-spawn": "^7.0.3",
     "crypto-random-string": "^2.0.0",
+    "D": "^1.0.0",
     "dashdash": "^1.14.1",
     "debug": "^4.3.4",
     "decamelize": "^1.2.0",

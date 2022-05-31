@@ -16,7 +16,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Galindo&family=Josefin+Sans:ital,wght@0,400;1,300&family=Oranienbaum&family=Short+Stack&display=swap" rel="stylesheet">
-</head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@300&family=Coming+Soon&family=Galindo&family=Gochi+Hand&family=Josefin+Sans:ital,wght@0,400;1,300&family=M+PLUS+1+Code:wght@200&family=Oranienbaum&family=Short+Stack&display=swap" rel="stylesheet">
+
+    <!--Enlace para animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> 
+
+
+  </head>
 
 <body class="container-fluid">
 
@@ -25,7 +34,7 @@
     
         <div class="container-fluid">
         
-            <img class="img-fluid" src="./assets/img/Logo Simple Minimalista Rosa.jpg" href="./index.html" alt="Logo Abogada de Familia" width="100" >
+          <a href="../index.html"><img class="img-fluid" src="../assets/img/Logo Simple Minimalista Rosa.jpg" width="100" alt="Logo Abogada de Familia"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span></button>
 
@@ -67,164 +76,118 @@
      
     </nav>
 
-<!--Carousel-->
-<header>
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<header class="container-fluid">
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+  
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <figure>
+            <img src="./assets/img/Imagen principal.jpg" class="img-fluid d-block" alt="Abogada de familia" width="1300px">
+        </figure>
+  
+        <div class="textoCarousel carousel-caption">
+            <h1 class="animate__animated animate__fadeInDown  m-3">ABOGADA DE FAMILIA</h1>
+            <p class="text-dark p-2 animate__animated animate__backInDown">Te damos la bienvenida a nuestro estudio de primer nivel y gran experiencia profesional</p>
+            <p class="text-dark animate__animated animate__backInDown">Somos un equipo de profesionales que brinda asesoramiento jurídico y legal de manera personalizada, utilizando las mejores estrategias para resolver los conflictos de manera rápida y eficaz, obteniendo los
+            <span class="text-dark fw-bold">  mejores resultados.</span></p>
+            <div clas="mt-5">
+              <a href="./pages/contacto.html" class="animate__animated animate__swing btn btn-secondary btn-lg "> Contactanos</a>
+            </div>
+        </div>
+      </div>
+    </div>
+</header>
+
+<main>
+<!--Servicios-->
+  <div class="w-100 mx-auto text-center pt-5" id="intro">
+      <h3 class="animate__animated animate__swing w-20 p-2 fs-2 fw-bold">SERVICIOS</h3>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./assets/img/Carousel1.jpg" class="d-block w-100" alt="Protegemos tus intereses">
-      <div class="carousel-caption d-none d-md-block">
-        <h3 class="text-white fs-1 fw-bold">Protegemos tus intereses</h3> <!--no me doy cuenta como subir el texto hacia la parte blanca de la imagen.PREGUNTAR-->
-        <p class="text-white fs-5 p-2">Cuidamos los intereses del grupo familiar en general. Y de cada cliente en particular</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="./assets/img/Carousel2.jpg" class="d-block w-100" alt="Brindamos confidencialidad">
-      <div class="carousel-caption d-none d-md-block">
-        <h3 class="text-black fs-1 fw-bold ">Brindamos confidencialidad</h3>  <!--no me doy cuenta como subir el texto hacia la parte blanca de la imagen.PREGUNTAR-->
-        <p class="text-black fs-5 p-2">Preservamos la intimidad de tu familia, dedicándonos a las causas con el debido cuidado</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="./assets/img/Carousel3.jpg" class="d-block w-100" alt="Defendemos tus derechos">
-      <div class="carousel-caption d-none d-md-block">
-        <h3 class="text-black fs-1 fw-bold">Defendemos tus derechos</h3> <!--no me doy cuenta como subir el texto hacia la parte blanca de la imagen.PREGUNTAR-->
-        <p class="text-black fs-5 p-2">Ofrecemos nuestro asesoramiento profesional para que tus derechos sean respetados</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-</head>
-
-    <main>
-    <!--Texto abajo de carousel-->
-    <section class="w-100 mx-auto text-center pt-5" id="intro">
-      <h1 class="p-4 fs-2  fw-bold">NUESTRO ESTUDIO</h1>
-      <p class="p-2 fs-4">Somos un equipo de profesionales que brinda asesoramiento jurídico y legal de manera personalizada, utilizando las mejores estrategias para resolver los conflictos de manera rápida y eficaz, obteniendo los
-      <span class="text-secondary fw-bold">  mejores resultados.</span></p>
-
-      <a href="./pages/contacto.html" class="btn btn-secondary btn-lg "> Contactanos</a>
-    </section>
-
-    <!--Servicios-->
-
-    <div class="w-100 mx-auto text-center pt-5" id="intro">
-      <h3 class="w-20 p-2 fs-2 fw-bold">SERVICIOS</h3>
-    </div>
- 
-    <div class="row justify-content-around p-4 ">
+    <div class="row justify-content-around p-4">
       <div class="col-sm-4">
         <div class="card h-100"> 
-
           <div class="contenedor">
             <figure>
               <img class="img-fluid" src="./assets/img/Servicios/Divorcio.jpg" alt="Divorcio" width="150px">
             </figure>
           </div>
-
           <div class="contenido"> 
             <div class="text-center card-body">
               <h3 class="card-title">Divorcio</h3>
               <p class="card-text">El divorcio es la disolución legal de un matrimonio y se decreta judicialmente a petición de ambos o de uno solo de los cónyuges, sin tener que demostrar causal alguna para la iniciación del mismo.</p>
-              <a href="./pages/servicios.html" class="btn btn-dark ">Leer más</a>
+              <a href="./pages/servicios.html#divorcio" class="animate__animated animate__swing btn btn-dark ">Leer más</a>
             </div>
           </div>
-
         </div>
-
       </div>
-
       <div class="col-sm-4">
         <div class="card h-100"> 
-
           <div class="contenedor">
             <figure>
               <img class="img-fluid" src="./assets/img/Servicios/Cuota alimentaria.jpg" alt="Cuota alimentaria" width="200px">
             </figure>
           </div>
-
           <div class="contenido"> 
             <div class="text-center card-body">
               <h3 class="card-title">Cuota alimentaria</h3>
               <p class="card-text">La cuota alimentaria en favor de los hijos comprende la manutención, educación, vestimenta, habitación, asistencia, gastos por enfermedad y esparcimiento. La misma es proporcional a las posibilidades económicas del alimentante y las necesidades del alimentado</p>
-              <a href="./pages/servicios.html" class="btn btn-dark ">Leer más</a>
+              <a href="./pages/servicios.html#cuota" class="animate__animated animate__swing btn btn-dark ">Leer más</a>
             </div>
           </div>
-          
         </div>
-
       </div>
-
       <div class="col-sm-4">
         <div class="card h-100"> 
-
           <div class="contenedor">
             <figure>
               <img class="img-fluid" src="./assets/img/Servicios/Regimen de comunicacion.png" alt="Regimen de comunicación" width="150">
             </figure>
           </div>
-
           <div class="contenido"> 
             <div class="text-center card-body">
               <h3 class="card-title">Régimen de comunicación</h3>
               <p class="card-text">El régimen comunicacional es un derecho no solo de ambos progenitores sino también del niño, niña o adolescente. Consiste en la visita periódica a los hijos menores de edad que se encuentran bajo el cuidado personal de otra persona.</p>
-              <a href="./pages/servicios.html" class="btn btn-dark ">Leer más</a>
+              <a href="./pages/servicios.html#regimen" class="animate__animated animate__swing btn btn-dark ">Leer más</a>
             </div>
           </div>
-          
         </div>
-
       </div>
 
       <div class="row justify-content-center p-4">
       <div class="col-sm-4">
         <div class="card h-100"> 
-
           <div class="contenedor">
             <figure>
               <img class="img-fluid" src="./assets/img/Servicios/Cuidado personal.jpg" alt="Cuidado personal" width="200">
             </figure>
-          </div>
-                 
+          </div>   
           <div class="contenido"> 
             <div class="text-center card-body">
               <h3 class="card-title">Cuidado personal</h3>
               <p class="card-text">Es el conjunto de deberes y facultades que tienen los progenitores en el cuidado de sus hijos. Ambos tienen los mismos derechos y obligaciones sobre los hijos menores de edad. Puede ser ejercido por uno de los progenitores o por ambos.</p>
-              <a href="./pages/servicios.html" class="btn btn-dark ">Leer más</a>
+              <a href="./pages/servicios.html#cuidado" class="animate__animated animate__swing btn btn-dark ">Leer más</a>
             </div>
           </div>
         </div>
-
       </div>
 
       <div class="col-sm-4">
         <div class="card h-100"> 
-
           <div class="contenedor">
             <figure>
               <img class="img-fluid" src="./assets/img/Servicios/Violencia familiar.jpg" alt="Violencia familiar" width="200">
             </figure>
           </div>
-
           <div class="contenido"> 
             <div class="text-center card-body">
               <h3 class="card-title">Violencia familiar</h3>
               <p class="card-text">Es toda acción, omisión o abuso dirigido a dominar, someter, controlar o agredir la integridad física, psíquica, moral, psicoemocional, sexual o la libertad de una persona en el ámbito del grupo familiar, aunque esa conducta no configure un delito.</p>
-              <a href="./pages/servicios.html" class="btn btn-dark ">Leer más</a>
+              <a href="./pages/servicios.html#violencia" class="animate__animated animate__swing btn btn-dark ">Leer más</a>
             </div>
           </div>
         </div>
@@ -234,31 +197,28 @@
     <!--Modalidad-->
 
         <section>
-            <h3 class="text-center p-3 fs-2 mt-5 fw-bold" id="titulo">MODALIDAD DE CONSULTA</h3>
-
+            <h3 class="animate__animated animate__swing text-center p-3 fs-2 mt-5 fw-bold" id="titulo">MODALIDAD DE CONSULTA</h3>
             <div class="row justify-content-around">
                 <div class="card col-xs-4" style="width: 28rem">
                     <img class= "img-fluid" src="./assets/img/Modalidad1.jpg" class="card-img-top" alt="Modalidad virtual">
                     <div class="card-body text-center">
                         <h3 class="card-title fw-bold">Virtual</h3>
                         <p class="card-text">Realizá tu consulta desde donde estés</p>
-                        <a href="https://walink.co/30d8fd" class="btn btn-secondary">Reservar turno</a>
+                        <a href="https://walink.co/30d8fd" class="animate__animated animate__swing btn btn-secondary">Reservar turno</a>
                     </div>
                 </div>
-
                 <div class="card col-xs-4" style="width: 28rem">
                     <img class= "img-fluid" src="./assets/img/Modalidad2.jpg" class="card-img-top" alt="Modalidad presencial">
                     <div class="card-body text-center">
                         <h3 class="card-title fw-bold">Presencial</h3>
                         <p class="card-text">Acercate a nuestras oficinas</p>
-                        <a href="https://walink.co/6bc5ca" class="btn btn-secondary">Reservar turno</a>
+                        <a href="https://walink.co/6bc5ca" class="animate__animated animate__swing btn btn-secondary">Reservar turno</a>
                     </div>
                 </div>
-
             </div>
         </section>
 
-        <section class="infoContacto h-100 text-center p-5 m-5  d-flex justify-content-around">
+        <section class="infoContacto h-100 text-center p-5 m-5 d-flex justify-content-around">
             <div>
               <h4>Llamanos</h4>
               <a class="datos" href="tel:+3513451127"> 351-3451127</a>
@@ -279,13 +239,12 @@
     <!--Pie de página-->
     
         <footer class="w-100 d-flex flex-column">
-            <p class="fs-5 px-3 pt-3">Sitio desarrollado por estudiante de <a href="https://www.coderhouse.com/"> Coderhouse</a></p>
-            
+            <p class="fs-6 px-3 pt-3">Sitio desarrollado por estudiante de <a href="https://www.coderhouse.com/"> Coderhouse</a></p>
             <div class=" d-flex justify-content-center" id="iconos">
                 <a href="https://www.facebook.com/sabri.canale"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.twitter.com/sabricanale"><i class="bi bi-twitter"></i></a>
                 <a href="https://www.instagram.com/sabricanale/"><i class="bi bi-instagram"></i></a>
-            </div>
+            </div> 
         </footer>    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

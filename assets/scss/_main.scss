@@ -1,10 +1,9 @@
 h1 {
     font-family:$fuenteSitio;
-    transform:rotateY(360deg);
-    transition: transform 5s;
     animation-delay: map-get($boton, delayAnimacion); 
     color: $colorNegro;
     animation: miTitulo;  
+    
 }
 h2 h3 h4 {
     @extend h1;

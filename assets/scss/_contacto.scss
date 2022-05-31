@@ -5,6 +5,7 @@
     @extend .form-control;
 } 
 .datos{
+    
     text-decoration: map-get($pieDePagina,decoTexto);
     color: $colorSecundario;
     &:hover{
