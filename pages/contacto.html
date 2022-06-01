@@ -24,7 +24,7 @@
 
 <body class="container-fluid">
 
-     <!--Navegador-->
+<!--Navegador-->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a href="../index.html"><img class="img-fluid" src="../assets/img/Logo Simple Minimalista Rosa.jpg" width="100" alt="Logo Abogada de Familia"></a>
@@ -66,92 +66,84 @@
             </div>
         </div>
     </nav>
-
     <main>
-        <div class="mb-3">
-            <section class="w-40 mx-auto text-center" id="intro">
-                <h1 class="animate__animated animate__fadeInDown titulo p-3 fs-2 mt-2 fw-bold">HACÉ TU CONSULTA</h1>
-                <p class=" fs-5 mb-5"> Completa los campos con tus datos y consulta. Estaremos contactándote a la brevedad</p>
-            </section>  
+<!--Presentación-->
+<div class="imagenFondo">
+    <div>
+      <h1 class="tituloBanner">HACÉ TU CONSULTA</h1>
+      <p class="textoBanner pb-2 animate__animated animate__backInDown">Completa los campos con tus datos y consultanos. Estaremos contactándote a la brevedad</p>            
+    </div>
+</div>
 
-            <div class="mb-3">
-                <div class="row justify-content-around">
-                    <div class="mt-5 col-md-6">
-                        <img src="../assets/img/Modalidad1.jpg" class="img-fluid rounded-start" alt="Contacto">
-                    </div>
-
-                    <div class="col-md-6">
-                        <form class="card-body m-3">
-
-                                <div class="mb-3">
-                                
-                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Nombre y apellido" name="nombre">
-                                </div>
-                                <div class="mb-3">
-                                    <input type="number" id="disabledTextInput" class="form-control" placeholder="Teléfono">
-                                </div>
-                                <div class="mb-3">
-                                    <input type="email" id="disabledTextInput" class="form-control" placeholder="E-mail">
-                                </div>
-                                
-                                <div class="mb-3">
-                                    <select class="form-select" aria-label="Default select example">
-
-                                        <option selected>¿Cómo llegaste a nosotras?</option>
-                                        <option value="1">Recomendación</option>
-                                        <option value="2">Redes sociales</option>
-                                        <option value="3">Googleando</option>
-                                
-                                    </select>
-                                </div>
-
-                                <div class="mb-3">
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Detalla brevemente tu consulta"></textarea>
-                                    
-                                </div>
-                                
-                                <div class= "row justify-content-center m-3">
-                                    <input type="submit" class="animate__animated animate__swing btn" value="Enviar"/> 
-                                    
-                                </div>                                    
-                            </form>   
-                    </div>
-                </div>
-            </div>
+<div class="mt-4 mb-3">
+    <div class="row">
+        <div class="d-flex justify-content-center col-lg-6 col-md-12">
+            <img src="../assets/img/Modalidad1.jpg" class="img-fluid rounded-start m-2 p-4" alt="Contacto" width="580px">                      
         </div>
 
-        <section class="infoContacto h-100 text-center p-5 m-5  row justify-content-around">
-            <div>
-            <h4>Llamanos</h4>
-            <a class="datos" href="tel:+3513451127"> 351-3451127</a>
-            </div>
-            
-            <div>
-            <h4>Escribinos</h4>
-            <a class="datos" href="mailto:abogadadefamilia@gmail.com"> abogadadefamilia@gmail.com</a>
-            </div>
+        <div class="d-flex justify-content-center col-lg-6 col-md-12">
+            <form class="mt-5">
+                <div class="mb-3">                
+                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Nombre y apellido" name="nombre">
+                </div>
+                <div class="mb-3">
+                    <input type="number" id="disabledTextInput" class="form-control" placeholder="Teléfono">
+                </div>
+                <div class="mb-3">
+                    <input type="email" id="disabledTextInput" class="form-control" placeholder="E-mail">
+                </div>                                
+                <div class="mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>¿Cómo llegaste a nosotras?</option>
+                        <option value="1">Recomendación</option>
+                        <option value="2">Redes sociales</option>
+                        <option value="3">Googleando</option>                                
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Detalla brevemente tu consulta"></textarea>                                    
+                </div>                                
+                <div class= "d-flex justify-content-center mb-3">
+                    <input type="submit" class="animate__animated animate__swing btn" value="Enviar">                                    
+                </div>                                    
+            </form>                           
+        </div>
+    </div>
+</div>
+</main>
 
-            <div>
-            <h4>Estamos en</h4>
-            <a class="datos" href="https://goo.gl/maps/BL1kPvVgSoX9wKws6"> Simón Bolivar 668</a>
-            </div>
-        </section>   
-    </main>
+<!--Info previa a pie de página-->
+    <section>
+        <div class="infoContacto h-100 text-center p-5 m-5">
+            <div class="row text-center">
+                <div class="col-sm-6 col-md-3">
+                    <h3 class="fs-6">Llamanos</h3>
+                    <a class="datos" href="tel:+3513451127"> 351-3451127</a>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3 class="fs-6">Escribinos</h3>
+                    <a class="datos" href="mailto:abogadadefamilia@gmail.com"> abogadadefamilia@gmail.com</a>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3 class="fs-6">Estamos en</h3>
+                    <a class="datos" href="https://goo.gl/maps/BL1kPvVgSoX9wKws6"> Simón Bolivar 668</a>
+                </div>
+            </div>  
+        </div>    
+    </section>
 
-<!--Pie de página-->
-        
+<!--Pie de página-->      
     <footer class="w-100 d-flex flex-column">
-        <p class="fs-5 px-3 pt-3">Sitio desarrollado por estudiante de <a href="https://www.coderhouse.com/"> Coderhouse</a></p>
-        
-        <div class="d-flex justify-content-center" id="iconos">
+        <div class="d-flex justify-content-center m-3" id="iconos">
             <a href="https://www.facebook.com/sabri.canale"><i class="bi bi-facebook"></i></a>
             <a href="https://www.twitter.com/sabricanale"><i class="bi bi-twitter"></i></a>
             <a href="https://www.instagram.com/sabricanale/"><i class="bi bi-instagram"></i></a>
         </div>
+        <p class="copyright mb-5">Abogada de Familia © 2022</p>
     </footer>    
 
+<!--Script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
