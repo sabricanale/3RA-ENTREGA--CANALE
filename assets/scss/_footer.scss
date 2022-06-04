@@ -13,14 +13,13 @@ footer{
     } 
 } 
 #iconos {
-        i{
-            font-size: map-get($pieDePagina,tamañoFuente);
-            padding: map-get($pieDePagina,pading);
-            text-decoration: map-get($pieDePagina,decoTexto);
-            color: $colorSecundario;
-            &:hover{
-                color:$colorNegro
-            }
-        } 
+    i{
+        font-size: map-get($pieDePagina,tamañoFuente);
+        padding: map-get($pieDePagina,pading);
+        text-decoration: map-get($pieDePagina,decoTexto);
+        color: $colorSecundario;
+        &:hover{
+            color:$colorNegro
+        }
+    } 
 }
-

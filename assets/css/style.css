@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url(animate.css);
 .btn, .a {
   width: auto;
@@ -113,7 +112,7 @@ footer {
     color: black; }
 
 .infoContacto {
-  background-color: #f0d9d1; }
+  background-color: #f4efec; }
 
 .infoContacto h4 {
   font-size: medium; }
@@ -131,7 +130,9 @@ footer {
   .infoContacto h4 {
     font-size: small; }
   .infoContacto a {
-    font-size: small; } }
+    font-size: small; }
+  .form-control, .form-select {
+    width: 300px; } }
 
 @media (max-width: 616px) {
   .form-label {
@@ -155,29 +156,66 @@ footer {
   .infoContacto a {
     font-size: medium; } }
 
-.contenedor {
-  display: flex;
-  justify-content: center;
-  margin: 20px; }
-
 .card {
-  margin: auto;
-  border-radius: 6px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 5px;
   overflow: hidden;
-  /*Elemento fuera del contenedor se oculte*/
-  background-color: white;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  /*sombra entre gris claro a la tarjeta*/
-  cursor: pointer;
-  /*en el cursor aparece una mano indicadora*/
-  transition: all 400ms ease;
-  /*efecto suave dura 400ms, efecto ease para que no se vea tosco*/ }
+  transition: .5s;
+  margin: auto;
+  cursor: pointer; }
 
 .card:hover {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-  /*sombra más oscura cuando pasemos el cursor*/
-  transform: translateY(-3%);
-  /*la tarjeta se traslada de manera vertical, es decir cuando pasemos el cursor va a tener ese efecto*/ }
+  box-shadow: 0 5px 15px #999b85;
+  transform: translateY(-15px); }
+
+.card .head {
+  height: 125px;
+  width: 100%;
+  position: relative; }
+
+.card .head .circle {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  border-radius: 50%;
+  background: #999b85;
+  bottom: 0; }
+
+.card .head .img {
+  width: auto;
+  height: 150px;
+  position: absolute;
+  background: white;
+  padding: 5px;
+  border-radius: 50%;
+  bottom: -30%;
+  left: 50%;
+  transform: translate(-50%); }
+
+.card .head .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover; }
+
+.card .description {
+  height: 100%;
+  width: auto;
+  padding: 40px 20px 20px 20px;
+  border-bottom: solid 1px rgba(6, 74, 76, 0.18);
+  text-align: center; }
+
+.card .description h3 {
+  margin-top: 50px;
+  color: black; }
+
+.card .description p {
+  color: black;
+  margin-top: 20px;
+  font-size: 15px; }
 
 #tarjeta {
   margin-top: 20px; }

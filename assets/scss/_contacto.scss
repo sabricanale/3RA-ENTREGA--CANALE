@@ -4,8 +4,7 @@
 .form-select{
     @extend .form-control;
 } 
-.datos{
-    
+.datos{ 
     text-decoration: map-get($pieDePagina,decoTexto);
     color: $colorSecundario;
     &:hover{
@@ -13,15 +12,16 @@
            }
 }    
 .infoContacto{
-    background-color: $colorAlternativo;
-   
+    background-color: $colorAlt2;
+    
+    
 }    
 .infoContacto h4{
     font-size:medium;
 }
 .infoContacto a{
     font-size: large;
-}  
+}
 @media (max-width:576px){
     .icono-wrap{
         flex-wrap: wrap;
@@ -38,6 +38,9 @@
     .infoContacto a{
         font-size: small;
     }
+    .form-control{
+        width: 300px;
+    }  
 }
 @media (max-width:616px){
     .form-label{
@@ -48,15 +51,12 @@
         display: flex;
         justify-content: end !important;
     }
-
     .infoContacto{
         display: inline-block;
     } 
     .infoContacto a{
-        
         font-size: medium;
-    }
-}
+    }}
 @media (max-width:1320px){
     .form-label{
         display: flex;
